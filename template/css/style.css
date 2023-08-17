@@ -218,7 +218,7 @@
 }
 
 .boton-descubra {
-    margin: 5%;
+    margin: 2%;
 }
 
 
@@ -328,7 +328,7 @@
 
 /*** About ***/
 .video {
-    background: linear-gradient(#fff0cbb9, #fff0cbb9), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.404), #adb5bd00), url() center center no-repeat;
     background-size: cover;
 }
 
@@ -458,7 +458,7 @@
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(#fff0cbb9, #fff0cbb9), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 4%), #adb5bd00), url() center center no-repeat;
     background-size: cover;
 }
 
@@ -467,7 +467,7 @@
     max-width: 600px;
     text-align: center;
     background: #FFFFFF;
-    border: 30px solid var(--primary);
+    border: 30px solid #ffcf7ba3;
 }
 
 .testimonial-item img {
@@ -501,12 +501,17 @@
 
 
 /*** Footer ***/
+
+.centrar{
+    padding-left: 10%;
+}
+
 .color-copyright {
     color:#FFCF7B; 
 }
 
 .footer {
-    color: #B0B9AE;
+    color: #dfdfdf;
 }
 
 .footer .btn.btn-link {
