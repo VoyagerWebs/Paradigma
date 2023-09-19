@@ -39,7 +39,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
@@ -49,24 +49,24 @@ get_header();
                                             class="text-dark"></strong>BEM-VINDOS ao </strong></p>
                                     <h1 class="display-1 text-dark mb-4 animated zoomIn">PARADIGMA</h1>
                                     <h3 class="fs-4 text-white animated zoomIn"><strong class="text-dark"> Cosmetica
-                                            Natural</strong></h3>
+                                            Natural</strong></h3> -->
                                     <!-- <a href=""
                                         class="btn btn-outline-dark rounded-pill py-3 px-5 animated zoomIn boton-descubra">Descubra
                                         mais</a> -->
-                                </div>
+                                <!-- </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </button>
+            </button> -->
         </div>
     </div>
 <!-- Carousel End -->
@@ -90,7 +90,7 @@ get_header();
                             <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/about-2.jpg"
                                 alt="">
                         </div>
-                        <a href="<?php echo $base_url; ?>/about" class="btn btn-outline-dark rounded-pill py-3 px-5 animated zoomIn boton-descubra">Descubra mais</a>
+                        <!-- <a href="<?php echo $base_url; ?>/about" class="btn btn-outline-dark rounded-pill py-3 px-5 animated zoomIn boton-descubra">Descubra mais</a> -->
                     </div>
                     
                 </div>
@@ -143,8 +143,7 @@ get_header();
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/product-1.jpg" alt="">
                     <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
                         <h4 class="text-primary">Óleo</h4>
-                        <span class="text-body">Óleo Vegetal para cuidados diários da pele do corpo. Feito na base de
-                            óleo vegetal de prensado ao frio. Nutre a pele, e perfuma.</span>
+                        <span class="text-body">Óleo Vegetal para cuidados diários da pele do corpo.</span>
                     </div>
                 </a>
                 <a href="" class="d-block product-item rounded">
@@ -165,8 +164,7 @@ get_header();
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/product-4.jpg" alt="">
                     <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
                         <h4 class="text-primary">Hidratante</h4>
-                        <span class="text-body">Emulsão feita na base do mais puro óleo de côco, prensado a frio , e com
-                            manteigas de cacau e cupuaçu orgânicas da região</span>
+                        <span class="text-body">Emulsão feita na base do mais puro óleo de côco.</span>
                     </div>
                 </a>
             </div>
