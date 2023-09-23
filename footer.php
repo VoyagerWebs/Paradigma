@@ -33,7 +33,7 @@
                     <p class="mb-2"><a href="<?php echo $base_url; ?>/contact#mapa"><i
                                 class="fa fa-map-marker-alt text-primary me-3"></i>Barra Grande, Península De Maraú,
                             Ba</a></p>
-                    <p class="mb-2"><a href="https://wa.link/6s38f2"><i
+                    <p class="mb-2"><a href="https://wa.link/6s38f2" target="_blank"><i
                                 class="fa fa-phone-alt text-primary me-3"></i>+55 73 8190-0136</a></p>
                     <p class="mb-2"><a href="mailto:paradigmacosmetica@gmail.com"><i
                                 class="fa fa-envelope text-primary me-3"></i>paradigmacosmetica@gmail.com</a></p>

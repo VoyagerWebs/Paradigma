@@ -29,7 +29,7 @@ get_header();
                         Sem derivados do petróleo né essências sintética</p>
                     <div class="d-flex">
                         <!-- <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" /> -->
-                        <a href="https://wa.link/6s38f2"><button class="btn btn-outline-dark flex-shrink-0"
+                        <a href="https://wa.link/6s38f2" target="_blank"><button class="btn btn-outline-dark flex-shrink-0"
                                 type="button">
                                 <i class="bi bi-whatsapp"></i>
 
