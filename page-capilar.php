@@ -60,6 +60,7 @@ $base_url = home_url();
             if ($the_query->have_posts()) {
                 while ($the_query->have_posts()) {
                     $the_query->the_post();
+                    $product = wc_get_product(get_the_ID());
             ?>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="store-item position-relative text-center">

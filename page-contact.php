@@ -100,7 +100,7 @@ $base_url = home_url();
                             </div>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">
+                            <button class="btn btn-primary rounded-pill py-3 px-5 enviar-men" type="submit">
                                 Enviar mensagem
                             </button>
                         </div>
