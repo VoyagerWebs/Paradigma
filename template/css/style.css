@@ -78,7 +78,14 @@
 .btn {
     transition: .5s;
     font-weight: 500;
+    
 }
+
+.enviar-men{
+    margin-left: 30%;
+}
+
+
 
 .btn-primary,
 .btn-outline-primary:hover {

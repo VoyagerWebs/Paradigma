@@ -10,15 +10,15 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>
+ 
 
 <?php
 function enqueue_custom_styles() {
-    // Favicon
-    wp_enqueue_style('favicon',get_stylesheet_directory_uri() . '/img/favicon.ico', array(), null, 'all');
+    // // Favicon
+     echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/template/css/favicon.ico" type="image/x-icon" />';
 
     // Google Web Fonts
-    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com', array(), null, 'all');
-    wp_enqueue_style('google-font', 'https://fonts.gstatic.com', array(), null, 'all');
+
     wp_enqueue_style('google-fon', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap', array(), null, 'all');
 
     // Icon Font Stylesheet
@@ -31,9 +31,11 @@ function enqueue_custom_styles() {
 
     // Customized Bootstrap Stylesheet
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri()  . '/template/css/bootstrap.min.css', array(), null, 'all');
+    
 
     // Template Stylesheet
     wp_enqueue_style('template-style', get_stylesheet_directory_uri() . '/template/css/style.css', array(), null, 'all');
+    
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_styles');

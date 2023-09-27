@@ -139,28 +139,28 @@ get_header();
                 <h1 class="display-6">Produtos naturais têm um efeito positivo no corpo</h1>
             </div>
             <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
-                <a href="" class="d-block product-item rounded">
+                <a href="<?php echo $base_url; ?>/cuidadocotidiano" class="d-block product-item rounded">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/product-1.jpg" alt="">
                     <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
                         <h4 class="text-primary">Óleo</h4>
                         <span class="text-body">Óleo Vegetal para cuidados diários da pele do corpo.</span>
                     </div>
                 </a>
-                <a href="" class="d-block product-item rounded">
+                <a href="<?php echo $base_url; ?>/capilar" class="d-block product-item rounded">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/product-2.jpg" alt="">
                     <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
                         <h4 class="text-primary">Xampu</h4>
                         <span class="text-body">Em creme Natural, feitos desde zero, sem utilização de bases.</span>
                     </div>
                 </a>
-                <a href="" class="d-block product-item rounded">
+                <a href="<?php echo $base_url; ?>/cuidadofacial" class="d-block product-item rounded">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/template/img//product-3.jpg" alt="">
                     <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
                         <h4 class="text-primary">Sabão</h4>
                         <span class="text-body"> Experiência única para nosso banho de cada dia</span>
                     </div>
                 </a>
-                <a href="" class="d-block product-item rounded">
+                <a href="<?php echo $base_url; ?>/corporales" class="d-block product-item rounded">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/product-4.jpg" alt="">
                     <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
                         <h4 class="text-primary">Hidratante</h4>

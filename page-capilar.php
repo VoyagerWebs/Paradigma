@@ -60,22 +60,28 @@ $base_url = home_url();
             if ($the_query->have_posts()) {
                 while ($the_query->have_posts()) {
                     $the_query->the_post();
+                    $product = wc_get_product(get_the_ID());
             ?>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="store-item position-relative text-center">
 
-                            <?php
-
-                            // Get the array of the gallery attachement IDs
+                        <?php
                             $attachment_ids = $product->get_gallery_image_ids();
 
-                            if (sizeof($attachment_ids) > 0) {
+                            if (is_array($attachment_ids) && sizeof($attachment_ids) > 0) {
                                 $first_attachment_id = reset($attachment_ids);
-                                $product_img_link = wp_get_attachment_image_src($first_attachment_id, 'full')[0];
+                                $image_data = wp_get_attachment_image_src($first_attachment_id, 'full');
+    
+                                if (is_array($image_data) && isset($image_data[0])) {
+                                    $product_img_link = $image_data[0];
+                                } else {
+                                 $product_img_link = get_stylesheet_directory_uri() . "/template/img/sem-imagen.jpg";
+                                }
                             } else {
-                                $product_img_link = get_stylesheet_directory_uri() . "/template/img/sem-imagen.jpg";
+                             $product_img_link = get_stylesheet_directory_uri() . "/template/img/sem-imagen.jpg";
                             }
-                            ?>
+                        ?>
+
                             <?php
                             $product_url = get_permalink();
                             ?>
