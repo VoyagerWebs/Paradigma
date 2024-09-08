@@ -44,37 +44,42 @@
 
 
 <!-- Navbar Start -->
-<div class="container-fluid bg-white sticky-top">
+<div class="container-fluid  sticky-top  color-barra">
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
-                <a href="" class="navbar-brand">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/logo.png" alt="Logo">
-                </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse show" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                    <a href="<?php echo  $base_url;?>" class="nav-item nav-link <?php if (is_front_page()) echo 'active'; ?>">Inicio</a>
-                    <a href="<?php echo $base_url; ?>/about" class="nav-item nav-link <?php if (is_page('about')) echo 'active'; ?>">Quem somos</a>
-                    <a href="<?php echo $base_url; ?>/testimonial" class="nav-item nav-link <?php if (is_page('testimonial')) echo 'active'; ?>">Depoimentos</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
-                            <div class="dropdown-menu bg-light rounded-0 m-0">
-                                <a href="<?php echo $base_url; ?>/capilar" class="dropdown-item">Capilar</a>
-                                <a href="<?php echo $base_url; ?>/corporales" class="dropdown-item">Corporales</a>
-                                <a href="<?php echo $base_url; ?>/cuidadofacial" class="dropdown-item">Cuidado Facial</a>
-                                <a href="<?php echo $base_url; ?>/cuidadocotidiano" class="dropdown-item">Cuidado Cotidiano</a>
-                            </div>
-
-                        </div>
-                        <a href="<?php echo $base_url; ?>/blog" class="nav-item nav-link <?php if (is_page('blog')) echo 'active'; ?>">Blog</a>
-                        <a href="<?php echo $base_url; ?>/contact" class="nav-item nav-link <?php if (is_page('contact')) echo 'active'; ?>">Contato</a>
-                    </div>
-
+            <div class="row">
+                
+                <nav class="navbar navbar-expand-lg  navbar-light py-2 py-lg-0">
+                <div class="col-2">
+                    <a href="" class="navbar-brand">
+                        <img class="img-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/template/img/logo4.png" alt="Logo">
+                    </a>
                 </div>
-            </nav>
+                    <div class="col-10 d-flex">
+                        <button type="button" class="navbar-toggler ms-auto me-0 " data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav ms-auto">
+                                <a href="<?php echo  $base_url;?>" class="nav-item nav-link <?php if (is_front_page()) echo 'active'; ?>">Inicio</a>
+                                <a href="<?php echo $base_url; ?>/about" class="nav-item nav-link <?php if (is_page('about')) echo 'active'; ?>">Quem somos</a>
+                                <a href="<?php echo $base_url; ?>/testimonial" class="nav-item nav-link <?php if (is_page('testimonial')) echo 'active'; ?>">Depoimentos</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
+                                    <div class="dropdown-menu bg-light rounded-0 m-0">
+                                        <a href="<?php echo $base_url; ?>/capilar" class="dropdown-item">Capilar</a>
+                                        <a href="<?php echo $base_url; ?>/corporales" class="dropdown-item">Corporales</a>
+                                        <a href="<?php echo $base_url; ?>/cuidadofacial" class="dropdown-item">Cuidado Facial</a>
+                                        <a href="<?php echo $base_url; ?>/cuidadocotidiano" class="dropdown-item">Cuidado Cotidiano</a>
+                                    </div>
+                                </div>
+                                <a href="<?php echo $base_url; ?>/blog" class="nav-item nav-link <?php if (is_page('blog')) echo 'active'; ?>">Blog</a>
+                                <a href="<?php echo $base_url; ?>/contact" class="nav-item nav-link <?php if (is_page('contact')) echo 'active'; ?>">Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
 </div>
 <!-- Navbar End -->
