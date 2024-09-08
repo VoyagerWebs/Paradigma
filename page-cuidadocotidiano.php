@@ -79,12 +79,18 @@ $base_url = home_url();
                             <?php
                             $product_url = get_permalink();
                             ?>
-                            <a href=<?php echo $product_url; ?>><img class="img-fluid" src="<?php echo $product_img_link; ?>" alt="" /></a>
-                            <div class="p-4">
-                                <h4 class="mb-3"><?php the_title(); ?></h4>
-                                <p><?php the_excerpt(); ?></p>
-                                <h4 class="text-primary"><?php echo $product->get_price_html(); ?></h4>
-                            </div>
+                                <div class="p-4 item1">
+                                    <a href=<?php echo $product_url; ?>><img class="img-fluid" src="<?php echo $product_img_link; ?>" alt="" /></a>
+                                </div>
+                                <div class="p-4 item2">
+                                    <h4 class="mb-3"><?php the_title(); ?></h4>
+                                </div>
+                                <div class="p-4 item3">
+                                    <a  href=<?php echo $product_url; ?> class="links"><?php the_excerpt(); ?></a>
+                                </div>
+                                <div class="p-4 item4">
+                                    <h4 class="text-primary"><?php echo $product->get_price_html(); ?></h4>
+                                </div>
                         </div>
                     </div>
             <?php

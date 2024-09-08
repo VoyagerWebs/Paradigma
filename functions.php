@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 <?php
 function enqueue_custom_styles() {
     // // Favicon
-     echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/template/css/favicon.ico" type="image/x-icon" />';
+    echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/template/css/favicon2.png" type="image/x-icon" />';
 
     // Google Web Fonts
 
@@ -40,8 +40,8 @@ function enqueue_custom_styles() {
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_styles');
 
-
-?>
+    ?>
+    
 <?php
 // Enqueue JavaScript scripts
 function enqueue_custom_scripts() {

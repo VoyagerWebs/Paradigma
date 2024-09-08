@@ -14,3 +14,61 @@ ins {
     text-decoration: none;
 
 }
+
+
+
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.item3 {
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    overflow: hidden; /* Oculta el exceso de texto */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) cuando el texto se trunca */
+
+}
+
+.item3::after {
+    content: '...'; /* Agrega los puntos suspensivos */
+    position: absolute; /* Establece la posición absoluta para que estén en la parte inferior del contenedor */
+    bottom: 35px; /* Coloca los puntos suspensivos en la parte inferior */
+    right: 162px; /* Coloca los puntos suspensivos en la esquina derecha */
+    background: white; /* Establece el fondo blanco para cubrir cualquier contenido detrás de los puntos suspensivos */
+    padding-left: 4px; /* Añade un pequeño espaciado entre el contenido y los puntos suspensivos */
+    
+}
+
+
+.item4 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.alinear {
+    justify-content: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.align-items-center {
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    color: black;
+}
